@@ -1,0 +1,13 @@
+header {
+  max-height: 455px;
+  .header__left {
+    max-width: 930px;
+  }
+  .header__right {
+    max-width: 910px;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+}

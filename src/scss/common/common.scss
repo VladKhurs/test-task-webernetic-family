@@ -1,0 +1,15 @@
+body {
+  font-size: 18px;
+  scroll-behavior: smooth;
+  font-family: "Manrope", sans-serif;
+}
+
+.container {
+  max-width: $page-width;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
