@@ -35,21 +35,24 @@
       </div>
     </header>
     <main>
-      <form class="modal-login">
-        <button class="cross"></button>
-        <p>Войти в систему</p>
-        <input type="text" name="email/phone" placeholder="Email/Телефон">
-        <input type="text" name="password" placeholder="Пароль">
-        <div class="check-box-wrapper"></div>
-        
-        <label>
-          <input type="checkbox" name="remember-password">
-          Запомнить пароль
-        </label>
-        <a href="">Восстановить</a>
-        <button class="login-button">Войти</button>
-        <button class="register-button">Зарегестрироваться</button>
-      </form>
+      <div class="container">
+        <form class="modal-login">
+          <button class="button-cross"><img src="/public/img/cross.svg" alt=""></button>
+          <p class="title">Войти в систему</p>
+          <input class="text-input mb-4px" type="text" name="email/phone" placeholder="Email/Телефон">
+          <input class="text-input" type="text" name="password" placeholder="Пароль">
+          <div class="check-box-wrapper"></div>
+          
+          <label>
+            <input type="checkbox" name="remember-password">
+            Запомнить пароль
+          </label>
+          <a href="">Восстановить</a>
+          <button class="form__button dark mb-4px">Войти</button>
+          <button class="form__button light">Зарегестрироваться</button>
+        </form>
+      </div>
+
     </main>
   </body>
 </html>

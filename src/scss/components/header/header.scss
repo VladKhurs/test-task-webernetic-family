@@ -1,9 +1,10 @@
 .header {
-  max-height: 455px;
+  min-height: 455px;
   margin: 36px 40px;
   display: flex;
   flex-wrap: wrap;
   border-radius: 20px;
+  overflow: hidden;
   justify-content: space-between;
   background-color: $light-gray;
 

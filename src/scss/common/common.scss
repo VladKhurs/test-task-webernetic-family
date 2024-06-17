@@ -6,7 +6,6 @@ body {
   font-size: 18px;
   scroll-behavior: smooth;
   font-family: "Manrope", sans-serif;
-  overflow: hidden;
 }
 
 .container {
@@ -17,4 +16,8 @@ body {
 .row {
   display: flex;
   flex-wrap: wrap;
+}
+
+button {
+  cursor: pointer;
 }

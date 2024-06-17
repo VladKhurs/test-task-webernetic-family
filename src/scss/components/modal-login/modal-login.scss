@@ -1,0 +1,90 @@
+.modal-login {
+  max-width: 500px;
+  background-color: $light-blue;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+
+  .button-cross {
+    align-self: end;
+    width: 54px;
+    height: 54px;
+    border-radius: 10px;
+    border: none;
+    background-color: $white;
+  }
+
+  .title {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32.78px;
+    margin-bottom: 18px;
+  }
+
+  input[type=text] {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24.59px;
+    background-color: $blue;
+    border-radius: 10px;
+    padding: 24px;
+    color: $dark-blue;
+    gap: 4px;
+    border: none;
+  }
+
+  .mb-4px {
+    margin-bottom: 4px;
+  }
+
+  input::placeholder {
+    color: $dark-blue;
+  }
+
+  label {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24.59px;
+    color: $black;
+    margin: 24px 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    input[type=checkbox] {
+      width: 18px;
+      height: 18px;
+      border: 2px solid $black;
+      border-radius: 2px;
+      margin: 3px 17px 3px 3px;
+    }
+  }
+
+  a {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 27.32px;
+    color: $dark-blue;
+    text-decoration: none;
+    margin-bottom: 36px;
+  }
+
+  .form__button {
+    height: 65px;
+    border-radius: 4px;
+    border: 1px solid $dark-blue;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28.8px;
+  }
+
+  .light {
+    color: $dark-blue;
+    background-color: $light-blue;
+  }
+
+  .dark {
+    color: $light-blue;
+    background-color: $dark-blue;
+  }
+}
