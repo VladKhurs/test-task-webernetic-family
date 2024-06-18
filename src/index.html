@@ -3,48 +3,70 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
     <script type="module" src="./ts/main.ts"></script>
     <title>Test task for Webernetic Family</title>
   </head>
   <body>
-    <header>
-      <div class="container">
-        <div class="header">
-            <div class="header__left-wrapper">
-              <div class="header__left">
-                <h2>Демо-версия</h2>
-                <p>За 18 лет деятельности было реализовано более 500 крупных, а так же, не менее 2500 средних и малых проектов. Используя знания и накопленный опыт мы можем предложить </p>
-                <button>
-                  <span>
-                    Попробовать бесплатно
-                  </span>
-                  <div class="point">
-                    <img src="/public/img/arrow-up-right.svg" alt="arrow-up-right">
-                  </div>
-                </button>
+    <header class="container">
+      <div class="header">
+        <div class="header__left-wrapper">
+          <div class="header__left">
+            <h2>Демо-версия</h2>
+            <p>
+              За 18 лет деятельности было реализовано более 500 крупных, а так
+              же, не менее 2500 средних и малых проектов. Используя знания и
+              накопленный опыт мы можем предложить
+            </p>
+            <button>
+              <span> Попробовать бесплатно </span>
+              <div class="point">
+                <img
+                  src="/public/img/arrow-up-right.svg"
+                  alt="arrow-up-right"
+                />
               </div>
-            </div>
-            <div class="header__rigth">
-              <img src="/public/img/desktop.png" alt="desktop">
-            </div>
+            </button>
+          </div>
         </div>
+        <div class="header__rigth"></div>
       </div>
     </header>
     <main>
       <div class="container">
         <form class="modal-login">
-          <button class="button-cross"><img src="/public/img/cross.svg" alt=""></button>
+          <button class="button-cross">
+            <img src="/public/img/cross.svg" alt="" />
+          </button>
           <p class="title">Войти в систему</p>
-          <input class="text-input mb-4px" type="text" name="email/phone" placeholder="Email/Телефон">
-          <input class="text-input" type="text" name="password" placeholder="Пароль">
-          <div class="check-box-wrapper"></div>
-          
+          <input
+            class="text-input mb-4px"
+            type="text"
+            name="email/phone"
+            placeholder="Email/Телефон"
+          />
+          <input
+            class="text-input"
+            type="text"
+            name="password"
+            placeholder="Пароль"
+          />
           <label>
-            <input type="checkbox" name="remember-password">
+            <input
+              class="check-box-wrapper"
+              checked="checked"
+              type="checkbox"
+              name="remember-password"
+            />
             Запомнить пароль
           </label>
           <a href="">Восстановить</a>
@@ -52,7 +74,6 @@
           <button class="form__button light">Зарегестрироваться</button>
         </form>
       </div>
-
     </main>
   </body>
 </html>
