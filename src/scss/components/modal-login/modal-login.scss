@@ -1,9 +1,15 @@
+.modal-login__wrapper {
+  padding: 24px;
+}
+
 .modal-login {
   max-width: 500px;
   background-color: $light-blue;
   padding: 24px;
   display: flex;
+  justify-self: center;
   flex-direction: column;
+  margin: 0 auto;
 
   .button-cross {
     align-self: end;
