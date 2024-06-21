@@ -24,7 +24,7 @@
     background-color: $light-blue;
 
     .header__left {
-      margin-left: 0;
+      margin: 24px 0 0 0;
       h2 {
         font-size: 20px;
         line-height: 32px;
@@ -42,6 +42,7 @@
   .header {
     align-items: flex-start;
     .header__left {
+      margin: 0;
       max-width: 100%;
       min-height: 202px;
       padding: 24px 24px 0 24px;
@@ -124,8 +125,8 @@
 
     .header__rigth {
       width: 100%;
-      height: calc(50vw - 24px);
-      background-image: url("/public/img/desktop-1920.png");
+      height: 220px;
+      background-image: url("./public/img/desktop-375.png");
       background-size: 100% 100%;
     }
   }
